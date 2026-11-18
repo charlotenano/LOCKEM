@@ -1,0 +1,584 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Digital Guide — LOCK-EM</title>
+    <link rel="icon" type="image/png" href="assets/bluelockem.png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand-lockup" href="index.html" aria-label="LOCK-EM home"
+          ><img class="brand-symbol" src="assets/bluelockem.png" alt="" /><img
+            class="brand-wordmark"
+            src="assets/nameblue.png"
+            alt=""
+        /></a>
+        <nav class="main-nav">
+          <a href="index.html">Home</a><a href="local-alerts.html">Local Alerts</a
+          ><a class="active" href="digital-guide.html">Digital Guide</a
+          ><a href="report.html">Report</a><a href="legal-protection.html">Legal Protection</a
+          ><a href="about.html">About</a>
+        </nav>
+        <button
+          class="menu-toggle"
+          data-menu-open
+          aria-controls="mobile-navigation"
+          aria-expanded="false"
+          aria-label="Open menu"
+        >
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+      <aside id="mobile-navigation" class="mobile-drawer" aria-hidden="true">
+        <button
+          class="menu-toggle drawer-close"
+          data-menu-close
+          aria-controls="mobile-navigation"
+          aria-label="Close menu"
+        >
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M18 6 6 18M6 6l12 12" />
+          </svg>
+        </button>
+        <nav>
+          <a href="index.html">Home</a><a href="local-alerts.html">Local Alerts</a
+          ><a class="active" href="digital-guide.html">Digital Guide</a
+          ><a href="report.html">Report</a><a href="legal-protection.html">Legal Protection</a
+          ><a href="about.html">About</a>
+        </nav>
+      </aside>
+    </header>
+    <main id="main">
+      <section class="threat-hero">
+        <div class="container">
+          <h1>Know the Threats, Avoid the Risks</h1>
+          <p>
+            Learn how common cyberattacks work in simple terms, how to prevent them before they
+            happen, and what to do if you are already affected.
+          </p>
+          <div class="threat-selector">
+            <button class="threat-tile" data-target="#threat-1">
+              <img src="assets/DG1.png" alt="" aria-hidden="true" />
+              <h3>Phishing & Smishing</h3></button
+            ><button class="threat-tile" data-target="#threat-2">
+              <img src="assets/DG2.png" alt="" aria-hidden="true" />
+              <h3>Account Takeover</h3></button
+            ><button class="threat-tile" data-target="#threat-3">
+              <img src="assets/DG3.png" alt="" aria-hidden="true" />
+              <h3>Malware & Malicious APK</h3></button
+            ><button class="threat-tile" data-target="#threat-4">
+              <img src="assets/DG4.png" alt="" aria-hidden="true" />
+              <h3>Public Wi-Fi & USB</h3>
+            </button>
+          </div>
+          <div class="phone-zone">
+            <div class="phone" aria-label="Example scam SMS">
+              <div class="sms">
+                Your account is locked. Verify now to restore access.<strong
+                  >gcash-verify-ph.com</strong
+                ><button
+                  class="hotspot"
+                  data-tip="urgent"
+                  aria-label="Urgent threat warning sign"
+                ></button
+                ><button
+                  class="hotspot"
+                  data-tip="link"
+                  aria-label="Misspelled link warning sign"
+                ></button
+                ><button
+                  class="hotspot"
+                  data-tip="greeting"
+                  aria-label="Generic greeting warning sign"
+                ></button
+                ><button
+                  class="hotspot"
+                  data-tip="sensitive"
+                  aria-label="Sensitive information request warning sign"
+                ></button>
+              </div>
+            </div>
+            <div>
+              <p><strong>Urgent threat:</strong> "Account locked in 24 hours"</p>
+              <p><strong>Misspelled link:</strong> gcash-verify-ph.com</p>
+              <p><strong>Generic greeting:</strong> No specific name or account details.</p>
+              <p>
+                <strong>Request for sensitive info:</strong> A fake message asks you to verify or
+                submit personal information.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <nav class="scroll-nav" aria-label="Threat sections">
+        <div class="container scroll-nav-inner">
+          <a href="#threat-1">01</a><a href="#threat-2">02</a><a href="#threat-3">03</a
+          ><a href="#threat-4">04</a>
+        </div>
+      </nav>
+      <section class="section">
+        <div class="container">
+          <article class="threat-card raised-card" id="threat-1">
+            <header class="threat-header">
+              <div class="threat-number">01</div>
+              <div>
+                <span class="eyebrow">Phishing & Smishing</span>
+                <h2>Fake Emails and Text Messages</h2>
+              </div>
+              <img
+                class="threat-illustration"
+                src="assets/DG1.png"
+                alt="Phishing and smishing illustration"
+              />
+            </header>
+            <div class="threat-content">
+              <section class="content-block">
+                <h3>What It Is</h3>
+                <p>
+                  Phishing (via email) and smishing (via SMS) occur when scammers pretend to be a
+                  trusted organization, such as a bank, courier, school, or government agency, to
+                  trick you into revealing passwords, credit card numbers, or OTPs.
+                </p>
+              </section>
+              <section class="content-block">
+                <h3>Warning Signs</h3>
+                <ul class="check-list">
+                  <li>
+                    <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                      <path
+                        d="M10.3 3.7 2.2 18a2 2 0 0 0 1.7 3h16.2a2 2 0 0 0 1.7-3L13.7 3.7a2 2 0 0 0-3.4 0z"
+                      />
+                      <path d="M12 9v4M12 17h.01" /></svg
+                    >Urgent threats ("Account locked in 24 hours")
+                  </li>
+                  <li>
+                    <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                      <path
+                        d="M10.3 3.7 2.2 18a2 2 0 0 0 1.7 3h16.2a2 2 0 0 0 1.7-3L13.7 3.7a2 2 0 0 0-3.4 0z"
+                      />
+                      <path d="M12 9v4M12 17h.01" /></svg
+                    >Misspelled website links (e.g., gcash-verify-ph.com)
+                  </li>
+                  <li>
+                    <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                      <path
+                        d="M10.3 3.7 2.2 18a2 2 0 0 0 1.7 3h16.2a2 2 0 0 0 1.7-3L13.7 3.7a2 2 0 0 0-3.4 0z"
+                      />
+                      <path d="M12 9v4M12 17h.01" /></svg
+                    >Generic greetings
+                  </li>
+                  <li>
+                    <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                      <path
+                        d="M10.3 3.7 2.2 18a2 2 0 0 0 1.7 3h16.2a2 2 0 0 0 1.7-3L13.7 3.7a2 2 0 0 0-3.4 0z"
+                      />
+                      <path d="M12 9v4M12 17h.01" /></svg
+                    >Requests for sensitive personal info
+                  </li>
+                </ul>
+              </section>
+              <section class="content-block">
+                <h3>How to Prevent It</h3>
+                <ul class="check-list">
+                  <li>
+                    <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="m5 12 4 4L19 6" /></svg
+                    >Always inspect the sender's address and website URL carefully.
+                  </li>
+                  <li>
+                    <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="m5 12 4 4L19 6" /></svg
+                    >Bookmark official banking and school websites instead of searching for them or
+                    clicking message links.
+                  </li>
+                </ul>
+              </section>
+              <section class="content-block fix-panel">
+                <h3>
+                  <svg class="icon danger-icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                      d="M10.3 3.7 2.2 18a2 2 0 0 0 1.7 3h16.2a2 2 0 0 0 1.7-3L13.7 3.7a2 2 0 0 0-3.4 0z"
+                    />
+                    <path d="M12 9v4M12 17h.01" />
+                  </svg>
+                  If it already happened
+                </h3>
+                <ol>
+                  <li>Disconnect from the internet immediately.</li>
+                  <li>Change your affected account password using a different clean device.</li>
+                  <li>Enable 2FA.</li>
+                  <li>
+                    Contact your bank or e-wallet provider to temporarily freeze your account.
+                  </li>
+                </ol>
+              </section>
+            </div>
+          </article>
+          <article class="threat-card raised-card" id="threat-2">
+            <header class="threat-header">
+              <div class="threat-number">02</div>
+              <div>
+                <span class="eyebrow">Account Takeover</span>
+                <h2>Credential Stuffing</h2>
+              </div>
+              <img
+                class="threat-illustration"
+                src="assets/DG2.png"
+                alt="Account takeover illustration"
+              />
+            </header>
+            <div class="threat-content">
+              <section class="content-block">
+                <h3>What It Is</h3>
+                <p>
+                  When a website suffers a data breach, hackers collect leaked email and password
+                  pairs and automatically test them on other popular platforms (social media,
+                  e-wallets, shopping apps). If you reuse passwords, one leak compromises all your
+                  accounts.
+                </p>
+              </section>
+              <section class="content-block">
+                <h3>Warning Signs</h3>
+                <ul class="check-list">
+                  <li>
+                    <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                      <path
+                        d="M10.3 3.7 2.2 18a2 2 0 0 0 1.7 3h16.2a2 2 0 0 0 1.7-3L13.7 3.7a2 2 0 0 0-3.4 0z"
+                      />
+                      <path d="M12 9v4M12 17h.01" /></svg
+                    >Password reset emails you did not request
+                  </li>
+                  <li>
+                    <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                      <path
+                        d="M10.3 3.7 2.2 18a2 2 0 0 0 1.7 3h16.2a2 2 0 0 0 1.7-3L13.7 3.7a2 2 0 0 0-3.4 0z"
+                      />
+                      <path d="M12 9v4M12 17h.01" /></svg
+                    >Login alerts from unfamiliar locations or devices
+                  </li>
+                  <li>
+                    <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                      <path
+                        d="M10.3 3.7 2.2 18a2 2 0 0 0 1.7 3h16.2a2 2 0 0 0 1.7-3L13.7 3.7a2 2 0 0 0-3.4 0z"
+                      />
+                      <path d="M12 9v4M12 17h.01" /></svg
+                    >Friends telling you your account is sending spam
+                  </li>
+                </ul>
+              </section>
+              <section class="content-block">
+                <h3>How to Prevent It</h3>
+                <ul class="check-list">
+                  <li>
+                    <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="m5 12 4 4L19 6" /></svg
+                    >Create long, unique passwords (at least 12 characters mixing letters, numbers,
+                    and symbols) for every important account.
+                  </li>
+                  <li>
+                    <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="m5 12 4 4L19 6" /></svg
+                    >Turn on app-based Two-Factor Authentication (ex. Google Authenticator).
+                  </li>
+                </ul>
+              </section>
+              <section class="content-block fix-panel">
+                <h3>
+                  <svg class="icon danger-icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                      d="M10.3 3.7 2.2 18a2 2 0 0 0 1.7 3h16.2a2 2 0 0 0 1.7-3L13.7 3.7a2 2 0 0 0-3.4 0z"
+                    />
+                    <path d="M12 9v4M12 17h.01" />
+                  </svg>
+                  If it already happened
+                </h3>
+                <ol>
+                  <li>
+                    Use the platform's official "Account Recovery" or "Hacked Account" page
+                    immediately.
+                  </li>
+                  <li>Revoke access to unknown third-party apps.</li>
+                  <li>Log out of all active sessions in your security settings.</li>
+                  <li>Warn your contacts not to send money to your compromised profile.</li>
+                </ol>
+              </section>
+            </div>
+          </article>
+          <article class="threat-card raised-card" id="threat-3">
+            <header class="threat-header">
+              <div class="threat-number">03</div>
+              <div>
+                <span class="eyebrow">Malware & Malicious APK</span>
+                <h2>Harmful Software</h2>
+              </div>
+              <img
+                class="threat-illustration"
+                src="assets/DG3.png"
+                alt="Malware and malicious APK illustration"
+              />
+            </header>
+            <div class="threat-content">
+              <section class="content-block">
+                <h3>What It Is</h3>
+                <p>
+                  Malware is harmful software designed to spy on your screen, steal saved passwords,
+                  or lock your files for ransom. On Android devices in the Philippines, malware
+                  frequently spreads through pirated apps or .apk installer files sent via messaging
+                  apps.
+                </p>
+              </section>
+              <section class="content-block">
+                <h3>Warning Signs</h3>
+                <ul class="check-list">
+                  <li>
+                    <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                      <path
+                        d="M10.3 3.7 2.2 18a2 2 0 0 0 1.7 3h16.2a2 2 0 0 0 1.7-3L13.7 3.7a2 2 0 0 0-3.4 0z"
+                      />
+                      <path d="M12 9v4M12 17h.01" /></svg
+                    >Your phone battery drains unusually fast
+                  </li>
+                  <li>
+                    <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                      <path
+                        d="M10.3 3.7 2.2 18a2 2 0 0 0 1.7 3h16.2a2 2 0 0 0 1.7-3L13.7 3.7a2 2 0 0 0-3.4 0z"
+                      />
+                      <path d="M12 9v4M12 17h.01" /></svg
+                    >Unknown apps appear on your screen
+                  </li>
+                  <li>
+                    <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                      <path
+                        d="M10.3 3.7 2.2 18a2 2 0 0 0 1.7 3h16.2a2 2 0 0 0 1.7-3L13.7 3.7a2 2 0 0 0-3.4 0z"
+                      />
+                      <path d="M12 9v4M12 17h.01" /></svg
+                    >Constant pop-up ads appear outside your browser
+                  </li>
+                  <li>
+                    <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                      <path
+                        d="M10.3 3.7 2.2 18a2 2 0 0 0 1.7 3h16.2a2 2 0 0 0 1.7-3L13.7 3.7a2 2 0 0 0-3.4 0z"
+                      />
+                      <path d="M12 9v4M12 17h.01" /></svg
+                    >Your device overheats while idle
+                  </li>
+                </ul>
+              </section>
+              <section class="content-block">
+                <h3>How to Prevent It</h3>
+                <ul class="check-list">
+                  <li>
+                    <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="m5 12 4 4L19 6" /></svg
+                    >Only install applications from official stores (Google Play Store or Apple App
+                    Store).
+                  </li>
+                  <li>
+                    <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="m5 12 4 4L19 6" /></svg
+                    >Disable "Install Unknown Apps" in your phone settings.
+                  </li>
+                  <li>
+                    <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="m5 12 4 4L19 6" /></svg
+                    >Avoid pirated software cracks.
+                  </li>
+                  <li>
+                    <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="m5 12 4 4L19 6" /></svg
+                    >Never download .apk files sent via chat.
+                  </li>
+                </ul>
+              </section>
+              <section class="content-block fix-panel">
+                <h3>
+                  <svg class="icon danger-icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                      d="M10.3 3.7 2.2 18a2 2 0 0 0 1.7 3h16.2a2 2 0 0 0 1.7-3L13.7 3.7a2 2 0 0 0-3.4 0z"
+                    />
+                    <path d="M12 9v4M12 17h.01" />
+                  </svg>
+                  If it already happened
+                </h3>
+                <ol>
+                  <li>Turn on Airplane Mode to stop the malware from sending your data.</li>
+                  <li>Boot your device into Safe Mode.</li>
+                  <li>Uninstall suspicious or recently added apps.</li>
+                  <li>Run a scan using reputable security software.</li>
+                  <li>
+                    For severe infections, back up essential photos/documents and perform a factory
+                    reset.
+                  </li>
+                </ol>
+              </section>
+            </div>
+          </article>
+          <article class="threat-card raised-card" id="threat-4">
+            <header class="threat-header">
+              <div class="threat-number">04</div>
+              <div>
+                <span class="eyebrow">Public Wi-Fi & USB</span>
+                <h2>Unsecured Networks and Charging Risks</h2>
+              </div>
+              <img
+                class="threat-illustration"
+                src="assets/DG4.png"
+                alt="Public Wi-Fi and USB safety illustration"
+              />
+            </header>
+            <div class="threat-content">
+              <section class="content-block">
+                <h3>What It Is</h3>
+                <p>
+                  Free public Wi-Fi hotspots in cafes, malls, and airports often lack encryption,
+                  allowing attackers on the same network to intercept unencrypted data.
+                  Additionally, tampered public USB charging ports can secretly transfer data or
+                  install malware onto connected phones (known as "juice jacking").
+                </p>
+              </section>
+              <section class="content-block">
+                <h3>Warning Signs</h3>
+                <ul class="check-list">
+                  <li>
+                    <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                      <path
+                        d="M10.3 3.7 2.2 18a2 2 0 0 0 1.7 3h16.2a2 2 0 0 0 1.7-3L13.7 3.7a2 2 0 0 0-3.4 0z"
+                      />
+                      <path d="M12 9v4M12 17h.01" /></svg
+                    >Duplicate Wi-Fi network names (e.g., "Free_Mall_WiFi" alongside
+                    "Free_Mall_WiFi_5G")
+                  </li>
+                  <li>
+                    <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                      <path
+                        d="M10.3 3.7 2.2 18a2 2 0 0 0 1.7 3h16.2a2 2 0 0 0 1.7-3L13.7 3.7a2 2 0 0 0-3.4 0z"
+                      />
+                      <path d="M12 9v4M12 17h.01" /></svg
+                    >Your phone prompting "Trust This Computer?" when plugged into a public charging
+                    station
+                  </li>
+                </ul>
+              </section>
+              <section class="content-block">
+                <h3>How to Prevent It</h3>
+                <ul class="check-list">
+                  <li>
+                    <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="m5 12 4 4L19 6" /></svg
+                    >Avoid accessing bank accounts, e-wallets, or sensitive portals while connected
+                    to public Wi-Fi.
+                  </li>
+                  <li>
+                    <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="m5 12 4 4L19 6" /></svg
+                    >Switch to mobile data for sensitive transactions.
+                  </li>
+                  <li>
+                    <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="m5 12 4 4L19 6" /></svg
+                    >Carry your own wall adapter or power bank instead of plugging directly into
+                    public USB ports.
+                  </li>
+                </ul>
+              </section>
+              <section class="content-block fix-panel">
+                <h3>
+                  <svg class="icon danger-icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                      d="M10.3 3.7 2.2 18a2 2 0 0 0 1.7 3h16.2a2 2 0 0 0 1.7-3L13.7 3.7a2 2 0 0 0-3.4 0z"
+                    />
+                    <path d="M12 9v4M12 17h.01" />
+                  </svg>
+                  If it already happened
+                </h3>
+                <ol>
+                  <li>Disconnect from the suspicious network immediately.</li>
+                  <li>Select "Forget This Network" in your Wi-Fi settings.</li>
+                  <li>Change passwords for any accounts you logged into during that session.</li>
+                </ol>
+              </section>
+            </div>
+          </article>
+          <div class="cta-banner raised-card">
+            <h2>Need to report an incident?</h2>
+            <a class="button button-primary" href="report.html">How to Get Help</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <a class="brand-lockup footer-brand" href="index.html" aria-label="LOCK-EM footer"
+              ><img class="brand-symbol" src="assets/yellowlockem.png" alt="" /><img
+                class="brand-wordmark"
+                src="assets/nameyellow.png"
+                alt=""
+            /></a>
+            <p style="margin-top: 10px">Digital Literacy for an Empowered Nation</p>
+          </div>
+          <nav class="footer-links">
+            <a href="index.html">Home</a><a href="local-alerts.html">Local Alerts</a
+            ><a href="digital-guide.html">Digital Guide</a><a href="report.html">Report</a
+            ><a href="legal-protection.html">Legal Protection</a><a href="about.html">About</a>
+          </nav>
+          <div>
+            <h3 style="color: #fff">Quick help</h3>
+            <p>CICC 24/7 Hotline 1326</p>
+            <a href="report.html">Link to the Report page</a>
+          </div>
+          <div>
+            <h3 style="color: #fff">References</h3>
+            <nav class="footer-reference">
+              <a href="https://privacy.gov.ph/" target="_blank" rel="noopener noreferrer"
+                >privacy.gov.ph</a
+              ><a href="https://dict.gov.ph" target="_blank" rel="noopener noreferrer"
+                >dict.gov.ph</a
+              ><a href="https://www.bsp.gov.ph" target="_blank" rel="noopener noreferrer"
+                >bsp.gov.ph</a
+              ><a href="https://scamwatchpilipinas.com/" target="_blank" rel="noopener noreferrer"
+                >scamwatchpilipinas.com</a
+              ><a href="https://cicc.gov.ph/report/" target="_blank" rel="noopener noreferrer"
+                >cicc.gov.ph/report</a
+              ><a href="https://acg.pnp.gov.ph/" target="_blank" rel="noopener noreferrer"
+                >acg.pnp.gov.ph</a
+              ><a
+                href="https://www.officialgazette.gov.ph/2012/09/12/republic-act-no-10175/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >RA 10175</a
+              ><a
+                href="https://www.officialgazette.gov.ph/2012/08/15/republic-act-no-10173/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >RA 10173</a
+              ><a
+                href="https://www.officialgazette.gov.ph/2022/10/10/republic-act-no-11934/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >RA 11934</a
+              >
+            </nav>
+          </div>
+        </div>
+        <div class="disclaimer">
+          <strong>Disclaimer:</strong> This website is an academic advocacy initiative created by
+          Computer Science students for public awareness and educational purposes. While all legal
+          references and reporting directories are sourced from official Philippine government
+          agencies, this platform does not process formal legal complaints. For urgent cybercrime
+          reports, contact the CICC 24/7 Hotline at 1326 or visit the official portals listed in our
+          Report page.
+        </div>
+        <div class="bottom-bar">© LOCK-EM, an academic advocacy project.</div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
