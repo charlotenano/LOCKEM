@@ -1,3 +1,22 @@
+document.addEventListener("DOMContentLoaded", () => {
+  const footerPlaceholder = document.getElementById("footer-placeholder");
+  if (footerPlaceholder) {
+    fetch("footer.html")
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error(`Failed to load footer.html (${response.status})`);
+        }
+        return response.text();
+      })
+      .then((html) => {
+        footerPlaceholder.outerHTML = html;
+      })
+      .catch((error) => {
+        console.error("Error loading footer component:", error);
+      });
+  }
+});
+
 const mobileDrawer = document.querySelector(".mobile-drawer");
 const menuOpenButtons = [...document.querySelectorAll("[data-menu-open]")];
 const menuCloseButton = document.querySelector("[data-menu-close]");
