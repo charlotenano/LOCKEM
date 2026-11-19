@@ -116,12 +116,6 @@
           </div>
         </div>
       </section>
-      <nav class="scroll-nav" aria-label="Threat sections">
-        <div class="container scroll-nav-inner">
-          <a href="#threat-1">01</a><a href="#threat-2">02</a><a href="#threat-3">03</a
-          ><a href="#threat-4">04</a>
-        </div>
-      </nav>
       <section class="section">
         <div class="container">
           <article class="threat-card raised-card" id="threat-1">
@@ -505,16 +499,32 @@
               </section>
             </div>
           </article>
-          <div class="cta-banner raised-card">
-            <h2>Need to report an incident?</h2>
-            <a class="button button-primary" href="report.html">How to Get Help</a>
+          <div class="intervention-banner">
+            <div class="intervention-copy">
+              <span class="intervention-eyebrow">IMMEDIATE CITIZEN INTERVENTION</span>
+              <h2>Already Lost Funds or Account Access?</h2>
+              <p>
+                Do not panic. Follow our national legal and technical escalation directory to
+                immediately log your report with the Cybercrime Investigation and Coordinating
+                Center (CICC) and Philippine National Police Anti-Cybercrime Group (PNP-ACG).
+              </p>
+            </div>
+            <div class="intervention-actions">
+              <a class="button button-accent" href="report.html">Open Incident Report Flow</a>
+              <a class="button intervention-btn-outline" href="legal-protection.html"
+                >View Republic Acts</a
+              >
+            </div>
+            <svg class="intervention-watermark" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+            </svg>
           </div>
         </div>
       </section>
     </main>
-    <footer class="site-footer">
+    <footer class="site-footer site-footer-v2">
       <div class="container">
-        <div class="footer-grid">
+        <div class="footer-grid footer-grid-v2">
           <div>
             <a class="brand-lockup footer-brand" href="index.html" aria-label="LOCK-EM footer"
               ><img class="brand-symbol" src="assets/yellowlockem.png" alt="" /><img
@@ -522,49 +532,52 @@
                 src="assets/nameyellow.png"
                 alt=""
             /></a>
-            <p style="margin-top: 10px">Digital Literacy for an Empowered Nation</p>
-          </div>
-          <nav class="footer-links">
-            <a href="index.html">Home</a><a href="local-alerts.html">Local Alerts</a
-            ><a href="digital-guide.html">Digital Guide</a><a href="report.html">Report</a
-            ><a href="legal-protection.html">Legal Protection</a><a href="about.html">About</a>
-          </nav>
-          <div>
-            <h3 style="color: #fff">Quick help</h3>
-            <p>CICC 24/7 Hotline 1326</p>
-            <a href="report.html">Link to the Report page</a>
+            <p class="footer-tagline">Digital Literacy for an Empowered Nation</p>
+            <p class="footer-about">
+              An academic advocacy initiative spearheaded by Computer Science students, dedicated to
+              safeguarding Filipino citizens against digital threats through accessible cyber
+              education and coordinated institutional reporting channels.
+            </p>
           </div>
           <div>
-            <h3 style="color: #fff">References</h3>
-            <nav class="footer-reference">
-              <a href="https://privacy.gov.ph/" target="_blank" rel="noopener noreferrer"
-                >privacy.gov.ph</a
-              ><a href="https://dict.gov.ph" target="_blank" rel="noopener noreferrer"
-                >dict.gov.ph</a
-              ><a href="https://www.bsp.gov.ph" target="_blank" rel="noopener noreferrer"
-                >bsp.gov.ph</a
-              ><a href="https://scamwatchpilipinas.com/" target="_blank" rel="noopener noreferrer"
-                >scamwatchpilipinas.com</a
-              ><a href="https://cicc.gov.ph/report/" target="_blank" rel="noopener noreferrer"
-                >cicc.gov.ph/report</a
-              ><a href="https://acg.pnp.gov.ph/" target="_blank" rel="noopener noreferrer"
-                >acg.pnp.gov.ph</a
-              ><a
-                href="https://www.officialgazette.gov.ph/2012/09/12/republic-act-no-10175/"
-                target="_blank"
-                rel="noopener noreferrer"
-                >RA 10175</a
-              ><a
-                href="https://www.officialgazette.gov.ph/2012/08/15/republic-act-no-10173/"
-                target="_blank"
-                rel="noopener noreferrer"
-                >RA 10173</a
-              ><a
-                href="https://www.officialgazette.gov.ph/2022/10/10/republic-act-no-11934/"
-                target="_blank"
-                rel="noopener noreferrer"
-                >RA 11934</a
-              >
+            <h3>NAVIGATION</h3>
+            <nav class="footer-links footer-links-v2" aria-label="Footer navigation">
+              <a href="index.html">Home</a>
+              <a href="local-alerts.html">Local Alerts</a>
+              <a href="digital-guide.html">Digital Guide</a>
+              <a href="legal-protection.html">Legal Protection</a>
+              <a href="report.html">Report</a>
+              <a href="about.html">About</a>
+            </nav>
+          </div>
+          <div>
+            <h3>QUICK HELP</h3>
+            <div class="hotline-box">
+              <span class="hotline-label">EMERGENCY HOTLINE</span>
+              <div class="hotline-number">
+                <span>CICC 24/7 Hotline:</span>
+                <strong>1326</strong>
+              </div>
+              <p>Direct, toll-free national incident intake response.</p>
+            </div>
+            <a class="button button-accent footer-cta" href="report.html">Link to the Report Page</a>
+          </div>
+          <div>
+            <h3>REFERENCES</h3>
+            <span class="ref-subhead">OFFICIAL PORTALS</span>
+            <nav class="footer-ref-list">
+              <a href="https://privacy.gov.ph/" target="_blank" rel="noopener noreferrer">&nearr; privacy.gov.ph</a>
+              <a href="https://dict.gov.ph" target="_blank" rel="noopener noreferrer">&nearr; dict.gov.ph</a>
+              <a href="https://www.bsp.gov.ph" target="_blank" rel="noopener noreferrer">&nearr; bsp.gov.ph</a>
+              <a href="https://scamwatchpilipinas.com/" target="_blank" rel="noopener noreferrer">&nearr; scamwatchpilipinas.com</a>
+              <a href="https://cicc.gov.ph/report/" target="_blank" rel="noopener noreferrer">&nearr; cicc.gov.ph/report</a>
+              <a href="https://acg.pnp.gov.ph/" target="_blank" rel="noopener noreferrer">&nearr; acg.pnp.gov.ph</a>
+            </nav>
+            <span class="ref-subhead" style="margin-top: 14px">PHILIPPINE LAWS</span>
+            <nav class="footer-ref-list">
+              <a href="https://www.officialgazette.gov.ph/2012/09/12/republic-act-no-10175/" target="_blank" rel="noopener noreferrer">RA 10175 (Cybercrime Prevention Act)</a>
+              <a href="https://www.officialgazette.gov.ph/2012/08/15/republic-act-no-10173/" target="_blank" rel="noopener noreferrer">RA 10173 (Data Privacy Act)</a>
+              <a href="https://www.officialgazette.gov.ph/2022/10/10/republic-act-no-11934/" target="_blank" rel="noopener noreferrer">RA 11934 (SIM Registration Act)</a>
             </nav>
           </div>
         </div>
@@ -576,7 +589,10 @@
           reports, contact the CICC 24/7 Hotline at 1326 or visit the official portals listed in our
           Report page.
         </div>
-        <div class="bottom-bar">© LOCK-EM, an academic advocacy project.</div>
+        <div class="bottom-bar bottom-bar-v2">
+          <span>&copy; LOCK-EM &mdash; Digital Literacy for an Empowered Nation</span>
+          <span>Empowering Filipinos Against Digital Threats</span>
+        </div>
       </div>
     </footer>
     <script src="script.js"></script>

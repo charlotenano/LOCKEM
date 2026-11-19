@@ -54,46 +54,73 @@
         </nav>
       </aside>
     </header>
-    <main id="main" class="container">
-      <section class="section">
+    <main id="main" class="container about-page">
+      <header class="about-heading">
         <h1>About LOCK-EM</h1>
         <p>Making cybersecurity understandable, accessible, and actionable for every Filipino.</p>
-      </section>
-      <section class="section-tight">
-        <div class="about-feature">
-          <div class="mission-logo-wrap">
-            <img class="mission-logo" src="assets/lockemblue.png" alt="LOCK-EM logo" />
+      </header>
+      <section class="about-overview" aria-labelledby="about-origin-title">
+        <div class="about-phone" aria-label="LOCK-EM mobile app illustration">
+          <div class="about-phone-status"><span>9:41</span><span>●●● ▰</span></div>
+          <span class="about-phone-badge">
+            <svg class="about-mini-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="12" cy="12" r="9" />
+              <path d="m8 12 3 3 5-6" />
+            </svg>
+            Cybersecurity Advocacy
+          </span>
+          <div class="about-phone-logo">
+            <img src="assets/lockemblue.png" alt="LOCK-EM shield and keyhole logo" />
+            <span>Digital Literacy for Empowered Nation</span>
           </div>
-          <div>
-            <h2>Our Mission</h2>
-            <p class="mission-quote">"Digital Literacy for an Empowered Nation"</p>
-          </div>
+          <span class="about-phone-footer">
+            <svg class="about-mini-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 3 5 6v5c0 5 3 8 7 10 4-2 7-5 7-10V6z" />
+              <path d="m9 12 2 2 4-4" />
+            </svg>
+            Protection + Prevention
+          </span>
         </div>
-      </section>
-      <section class="section">
-        <div class="goal-block raised-card">
-          <h2>Our Goal</h2>
+        <div class="about-origin raised-card">
+          <span class="about-kicker">
+            OUR PHILOSOPHY &amp; ORIGIN
+          </span>
+          <h2 id="about-origin-title">Digital Literacy for an Empowered Nation</h2>
           <p>
             LOCK-EM is a student-led cybersecurity awareness advocacy created by Computer Science
-            students for our Reading Visual Arts course. As Computer Science students building
-            software, studying networks, and learning how systems are defended, we realized
-            something important. The people who need cybersecurity advice the most are often shut
-            out by how complicated it sounds. Most security guides are packed with heavy technical
-            jargon, leaving everyday internet users unprotected against scams and data leaks they
-            could have easily avoided.
+            students for our Reading Visual Arts course. As students building software, studying
+            networks, and learning how systems are defended, we realized that the people who need
+            cybersecurity advice most are often shut out by how complicated it sounds. We make
+            practical, verified guidance easier to understand and use.
           </p>
-          <p>
-            As future developers and tech professionals, we believe security should not be gatekept
-            behind technical terms. Our goal is to translate what we learn in our Computer Science
-            classes into practical and plain language anyone can use. Whether you're a fellow
-            student using a school portal, a person managing mobile banking, or a citizen accessing
-            government services online, we want you to feel confident spotting digital red flags,
-            protecting your personal data, and knowing your rights.
-          </p>
+          <div class="about-goal">
+            <h3>
+              <svg class="about-mini-icon" viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="12" cy="12" r="9" />
+                <circle cx="12" cy="12" r="5" />
+                <circle cx="12" cy="12" r="1" />
+              </svg>
+              OUR GOAL
+            </h3>
+            <p>
+              As future developers and tech professionals, we believe security should be accessible.
+              We translate what we learn in our Computer Science classes into plain language and
+              practical steps anyone can use to protect personal data, recognize digital red flags,
+              and understand their rights.
+            </p>
+          </div>
+          <div class="about-serving">
+            <strong>Serving:</strong><span>Students &amp; Academia</span
+            ><span>E-Wallet &amp; Banking Users</span><span>Government Portal Users</span
+            ><span>MSMEs</span>
+          </div>
         </div>
       </section>
-      <section class="section">
-        <h2>Our Core Commitments</h2>
+      <section class="about-section">
+        <header class="about-section-heading">
+          <h2>Our Core Commitments</h2>
+          <p>Built upon transparent student principles that prioritize user protection above all else.</p>
+        </header>
         <div class="commitments">
           <article class="commitment raised-card">
             <span class="commitment-number">01</span
@@ -107,6 +134,7 @@
               information grounded in official advisories from Philippine agencies to help you stay
               cautious without feeling overwhelmed.
             </p>
+            <span class="commitment-caption">Evidence-Based Guidelines</span>
           </article>
           <article class="commitment raised-card">
             <span class="commitment-number">02</span
@@ -120,8 +148,9 @@
               them down into straightforward steps that make sense even if you don't come from a
               tech background.
             </p>
+            <span class="commitment-caption">Plain-Language Translation</span>
           </article>
-          <article class="commitment raised-card" style="background: var(--yellow-tint)">
+          <article class="commitment raised-card">
             <span class="commitment-number">03</span
             ><svg class="icon icon-lg" viewBox="0 0 24 24" aria-hidden="true">
               <path d="m5 12 4 4L19 6"></path>
@@ -132,112 +161,83 @@
               clear, realistic steps to secure your account and direct links to the right Philippine
               authorities when you need real help.
             </p>
+            <span class="commitment-caption">Direct Reporting Pathways</span>
           </article>
         </div>
       </section>
-      <section class="section">
-        <h2>Meet the Team</h2>
-        <p>
-          Developed by Computer Science students dedicated to promoting digital literacy and public
-          cyber safety in the Philippines.
-        </p>
+      <section class="section about-team">
+        <header class="about-section-heading">
+          <span class="eyebrow">A STUDENT TASKFORCE</span>
+          <h2>Project Creators</h2>
+          <p>
+            Developed by Computer Science students dedicated to promoting digital literacy and
+            public cyber safety in the Philippines.
+          </p>
+        </header>
         <div class="team-grid">
           <article class="member-card raised-card">
-            <div
-              class="avatar-placeholder"
-              role="img"
-              aria-label="Image placeholder for team member 1"
-            >
-              <svg class="icon icon-lg" viewBox="0 0 24 24" aria-hidden="true">
-                <rect x="3" y="3" width="18" height="18" rx="2"></rect>
-                <circle cx="8.5" cy="8.5" r="1.5"></circle>
-                <path d="m21 15-5-5L5 21"></path>
-              </svg>
+            <div class="avatar-placeholder">
+              <img src="assets/luke.jpg" alt="Luke Joseph B. Renacido" />
             </div>
-            <span class="photo-credit-placeholder">Photo credit: Add source link</span>
-            <h3>[Member Name 1]</h3>
-            <p>Role</p>
+            <h3>Luke Joseph B. Renacido</h3>
+            <p>Group Leader &amp; Content Strategist</p>
           </article>
           <article class="member-card raised-card">
-            <div
-              class="avatar-placeholder"
-              role="img"
-              aria-label="Image placeholder for team member 2"
-            >
-              <svg class="icon icon-lg" viewBox="0 0 24 24" aria-hidden="true">
-                <rect x="3" y="3" width="18" height="18" rx="2"></rect>
-                <circle cx="8.5" cy="8.5" r="1.5"></circle>
-                <path d="m21 15-5-5L5 21"></path>
-              </svg>
+            <div class="avatar-placeholder">
+              <img src="assets/cha.png" alt="Lady Charlote A. Nano" />
             </div>
-            <span class="photo-credit-placeholder">Photo credit: Add source link</span>
-            <h3>[Member Name 2]</h3>
-            <p>Role</p>
+            <h3>Lady Charlote A. Nano</h3>
+            <p>Frontend Developer &amp; UI/UX and Assets Designer</p>
           </article>
           <article class="member-card raised-card">
-            <div
-              class="avatar-placeholder"
-              role="img"
-              aria-label="Image placeholder for team member 3"
-            >
-              <svg class="icon icon-lg" viewBox="0 0 24 24" aria-hidden="true">
-                <rect x="3" y="3" width="18" height="18" rx="2"></rect>
-                <circle cx="8.5" cy="8.5" r="1.5"></circle>
-                <path d="m21 15-5-5L5 21"></path>
-              </svg>
+            <div class="avatar-placeholder">
+              <img src="assets/mae.jpg" alt="Mae Ann D. Monterde" />
             </div>
-            <span class="photo-credit-placeholder">Photo credit: Add source link</span>
-            <h3>[Member Name 3]</h3>
-            <p>Role</p>
+            <h3>Mae Ann D. Monterde</h3>
+            <p>Lead Researcher &amp; Content Strategist</p>
           </article>
           <article class="member-card raised-card">
-            <div
-              class="avatar-placeholder"
-              role="img"
-              aria-label="Image placeholder for team member 4"
-            >
-              <svg class="icon icon-lg" viewBox="0 0 24 24" aria-hidden="true">
-                <rect x="3" y="3" width="18" height="18" rx="2"></rect>
-                <circle cx="8.5" cy="8.5" r="1.5"></circle>
-                <path d="m21 15-5-5L5 21"></path>
-              </svg>
+            <div class="avatar-placeholder">
+              <img src="assets/kyle.jpg" alt="Kyle Louise A. Lota" />
             </div>
-            <span class="photo-credit-placeholder">Photo credit: Add source link</span>
-            <h3>[Member Name 4]</h3>
-            <p>Role</p>
+            <h3>Kyle Louise A. Lota</h3>
+            <p>Documentation Lead</p>
           </article>
           <article class="member-card raised-card">
+            <div class="avatar-placeholder">
+              <img src="assets/josh.jpg" alt="Josh J. Pantalunan" />
+            </div>
+            <h3>Josh J. Pantalunan</h3>
+            <p>Content Researcher</p>
+          </article>
+          <article class="member-card adviser-card raised-card">
             <div
-              class="avatar-placeholder"
+              class="avatar-placeholder adviser-avatar"
               role="img"
-              aria-label="Image placeholder for team member 5"
+              aria-label="Faculty adviser photo placeholder"
             >
-              <svg class="icon icon-lg" viewBox="0 0 24 24" aria-hidden="true">
-                <rect x="3" y="3" width="18" height="18" rx="2"></rect>
-                <circle cx="8.5" cy="8.5" r="1.5"></circle>
-                <path d="m21 15-5-5L5 21"></path>
+              <svg class="icon adviser-placeholder-icon" viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="12" cy="8" r="3.5" />
+                <path d="M5 21a7 7 0 0 1 14 0" />
               </svg>
             </div>
-            <span class="photo-credit-placeholder">Photo credit: Add source link</span>
-            <h3>[Member Name 5]</h3>
-            <p>Role</p>
+            <span class="adviser-submission">Submitted by</span>
+            <h3>Faculty Adviser</h3>
+            <p>Adviser image placeholder</p>
           </article>
         </div>
-        <p style="margin-top: 24px">Created for our Reading Visual Arts course</p>
-      </section>
-      <section class="section">
-        <div class="closing-cta raised-card">
-          <h2>Start building safer habits</h2>
+        <div class="about-course-note">
           <div>
-            <a class="button button-primary" href="digital-guide.html">Digital Guide</a>
-            <a class="button button-secondary" href="report.html">Report</a>
+            <span class="eyebrow">COURSE REQUIREMENT PROJECT</span>
+            <p>Curated under the curriculum of Reading Visual Arts — Computer Science Department.</p>
           </div>
+          <a class="button button-secondary" href="digital-guide.html">Explore Digital Guides</a>
         </div>
       </section>
     </main>
-    <footer class="site-footer">
+    <footer class="site-footer site-footer-v2">
       <div class="container">
-        <div class="footer-grid">
+        <div class="footer-grid footer-grid-v2">
           <div>
             <a class="brand-lockup footer-brand" href="index.html" aria-label="LOCK-EM footer"
               ><img class="brand-symbol" src="assets/yellowlockem.png" alt="" /><img
@@ -245,49 +245,52 @@
                 src="assets/nameyellow.png"
                 alt=""
             /></a>
-            <p style="margin-top: 10px">Digital Literacy for an Empowered Nation</p>
-          </div>
-          <nav class="footer-links">
-            <a href="index.html">Home</a><a href="local-alerts.html">Local Alerts</a
-            ><a href="digital-guide.html">Digital Guide</a><a href="report.html">Report</a
-            ><a href="legal-protection.html">Legal Protection</a><a href="about.html">About</a>
-          </nav>
-          <div>
-            <h3 style="color: #fff">Quick help</h3>
-            <p>CICC 24/7 Hotline 1326</p>
-            <a href="report.html">Link to the Report page</a>
+            <p class="footer-tagline">Digital Literacy for an Empowered Nation</p>
+            <p class="footer-about">
+              An academic advocacy initiative spearheaded by Computer Science students, dedicated to
+              safeguarding Filipino citizens against digital threats through accessible cyber
+              education and coordinated institutional reporting channels.
+            </p>
           </div>
           <div>
-            <h3 style="color: #fff">References</h3>
-            <nav class="footer-reference">
-              <a href="https://privacy.gov.ph/" target="_blank" rel="noopener noreferrer"
-                >privacy.gov.ph</a
-              ><a href="https://dict.gov.ph" target="_blank" rel="noopener noreferrer"
-                >dict.gov.ph</a
-              ><a href="https://www.bsp.gov.ph" target="_blank" rel="noopener noreferrer"
-                >bsp.gov.ph</a
-              ><a href="https://scamwatchpilipinas.com/" target="_blank" rel="noopener noreferrer"
-                >scamwatchpilipinas.com</a
-              ><a href="https://cicc.gov.ph/report/" target="_blank" rel="noopener noreferrer"
-                >cicc.gov.ph/report</a
-              ><a href="https://acg.pnp.gov.ph/" target="_blank" rel="noopener noreferrer"
-                >acg.pnp.gov.ph</a
-              ><a
-                href="https://www.officialgazette.gov.ph/2012/09/12/republic-act-no-10175/"
-                target="_blank"
-                rel="noopener noreferrer"
-                >RA 10175</a
-              ><a
-                href="https://www.officialgazette.gov.ph/2012/08/15/republic-act-no-10173/"
-                target="_blank"
-                rel="noopener noreferrer"
-                >RA 10173</a
-              ><a
-                href="https://www.officialgazette.gov.ph/2022/10/10/republic-act-no-11934/"
-                target="_blank"
-                rel="noopener noreferrer"
-                >RA 11934</a
-              >
+            <h3>NAVIGATION</h3>
+            <nav class="footer-links footer-links-v2" aria-label="Footer navigation">
+              <a href="index.html">Home</a>
+              <a href="local-alerts.html">Local Alerts</a>
+              <a href="digital-guide.html">Digital Guide</a>
+              <a href="legal-protection.html">Legal Protection</a>
+              <a href="report.html">Report</a>
+              <a href="about.html">About</a>
+            </nav>
+          </div>
+          <div>
+            <h3>QUICK HELP</h3>
+            <div class="hotline-box">
+              <span class="hotline-label">EMERGENCY HOTLINE</span>
+              <div class="hotline-number">
+                <span>CICC 24/7 Hotline:</span>
+                <strong>1326</strong>
+              </div>
+              <p>Direct, toll-free national incident intake response.</p>
+            </div>
+            <a class="button button-accent footer-cta" href="report.html">Link to the Report Page</a>
+          </div>
+          <div>
+            <h3>REFERENCES</h3>
+            <span class="ref-subhead">OFFICIAL PORTALS</span>
+            <nav class="footer-ref-list">
+              <a href="https://privacy.gov.ph/" target="_blank" rel="noopener noreferrer">&nearr; privacy.gov.ph</a>
+              <a href="https://dict.gov.ph" target="_blank" rel="noopener noreferrer">&nearr; dict.gov.ph</a>
+              <a href="https://www.bsp.gov.ph" target="_blank" rel="noopener noreferrer">&nearr; bsp.gov.ph</a>
+              <a href="https://scamwatchpilipinas.com/" target="_blank" rel="noopener noreferrer">&nearr; scamwatchpilipinas.com</a>
+              <a href="https://cicc.gov.ph/report/" target="_blank" rel="noopener noreferrer">&nearr; cicc.gov.ph/report</a>
+              <a href="https://acg.pnp.gov.ph/" target="_blank" rel="noopener noreferrer">&nearr; acg.pnp.gov.ph</a>
+            </nav>
+            <span class="ref-subhead" style="margin-top: 14px">PHILIPPINE LAWS</span>
+            <nav class="footer-ref-list">
+              <a href="https://www.officialgazette.gov.ph/2012/09/12/republic-act-no-10175/" target="_blank" rel="noopener noreferrer">RA 10175 (Cybercrime Prevention Act)</a>
+              <a href="https://www.officialgazette.gov.ph/2012/08/15/republic-act-no-10173/" target="_blank" rel="noopener noreferrer">RA 10173 (Data Privacy Act)</a>
+              <a href="https://www.officialgazette.gov.ph/2022/10/10/republic-act-no-11934/" target="_blank" rel="noopener noreferrer">RA 11934 (SIM Registration Act)</a>
             </nav>
           </div>
         </div>
@@ -299,7 +302,10 @@
           reports, contact the CICC 24/7 Hotline at 1326 or visit the official portals listed in our
           Report page.
         </div>
-        <div class="bottom-bar">© LOCK-EM, an academic advocacy project.</div>
+        <div class="bottom-bar bottom-bar-v2">
+          <span>&copy; LOCK-EM &mdash; Digital Literacy for an Empowered Nation</span>
+          <span>Empowering Filipinos Against Digital Threats</span>
+        </div>
       </div>
     </footer>
     <script src="script.js"></script>

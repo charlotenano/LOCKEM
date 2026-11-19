@@ -2,8 +2,7 @@
 
 ## Brand colors
 
-- Royal Blue: `#0217A0` — primary buttons, headings, links, active states, footer.
-- Slate Blue: `#4E6B9C` — secondary text, icons, borders, and inactive states.
+- Blue: `#003989` — all blue accents, buttons, headings, links, borders, icons, footer, and intervention surfaces.
 - Sunny Yellow: `#FFDE59` — indicators, highlights, warnings, and the Hotline 1326 action.
 - Surface: `#F7F8FB`
 - Dark text: `#0B1240`
@@ -12,7 +11,7 @@
 
 ## Contrast
 
-The primary text combinations use #0B1240 on #F7F8FB and #FFFFFF on #0217A0. Muted text uses #3C5078 on #F7F8FB. Sunny Yellow is used as a fill or indicator, not as small text on light surfaces.
+The primary text combinations use #0B1240 on #F7F8FB and #F7F8FB on #003989. Muted text uses #3C5078 on #F7F8FB. Sunny Yellow is used as a fill or indicator, not as small text on light surfaces.
 
 ## Typography
 
@@ -27,7 +26,7 @@ The site loads these fonts from Google Fonts, with local system-font fallbacks.
 - The footer pairs `assets/yellowlockem.png` followed by `assets/nameyellow.png`.
 - Keep the mascot mark first and the matching horizontal wordmark second in both lockups.
 - `assets/yellowlockem.png` is used as the mascot mark on the blue Help panel.
-- Icons are inline SVGs. Use yellow icons on royal-blue surfaces and royal-blue icons on yellow surfaces.
+- Reusable icons live in `assets/icons.svg`; reference its symbols with `<use>`. Use yellow icons on royal-blue surfaces and royal-blue icons on yellow surfaces.
 - Digital Guide threat selectors and section illustrations use `assets/DG1.png` through `assets/DG4.png` for phishing, account takeover, malware, and public Wi-Fi/USB, respectively. The selectors have no card background or shadow.
 - Home account-security quick links use `assets/HP1.png` through `assets/HP4.png` in order for 2FA, suspicious text links, unique passwords, and device updates. The desktop quick-link cards are taller to use the available space.
 - The Home page's four detailed habit cards use the blue `assets/HP1B.png` through `assets/HP4B.png` icons in the same order.
