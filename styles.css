@@ -504,8 +504,8 @@ p strong {
 }
 
 .home-hero .hero-copy {
-  max-width: 640px;
-  padding: clamp(12px, 2vw, 24px) 0;
+  max-width: 680px;
+  padding: clamp(12px, 2vw, 24px) 0 clamp(12px, 2vw, 24px) clamp(24px, 4vw, 56px);
 }
 
 .home-hero .hero-copy h1 {
