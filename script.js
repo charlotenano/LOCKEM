@@ -15,6 +15,25 @@ document.addEventListener("DOMContentLoaded", () => {
         console.error("Error loading footer component:", error);
       });
   }
+
+  const track = document.getElementById("govCarouselTrack");
+  const prevBtn = document.querySelector(".gov-carousel-btn.prev");
+  const nextBtn = document.querySelector(".gov-carousel-btn.next");
+
+  if (track && prevBtn && nextBtn) {
+    const getScrollStep = () => {
+      const firstCard = track.querySelector(".story-card");
+      return firstCard ? firstCard.offsetWidth + 24 : 380;
+    };
+
+    prevBtn.addEventListener("click", () => {
+      track.scrollBy({ left: -getScrollStep(), behavior: "smooth" });
+    });
+
+    nextBtn.addEventListener("click", () => {
+      track.scrollBy({ left: getScrollStep(), behavior: "smooth" });
+    });
+  }
 });
 
 const mobileDrawer = document.querySelector(".mobile-drawer");

@@ -185,7 +185,7 @@
         </div>
 
         <!-- Additional 4 small cards with images -->
-        <div class="school-more-grid" hidden> <!-- hidden -->
+        <div class="school-more-grid" hidden>
           <article class="small-story small-story-media raised-card">
             <div class="image-placeholder alert-photo small-story-thumb" style="--ratio: 1">
               <img
@@ -298,88 +298,181 @@
       <section class="department" data-category="government">
         <div class="department-label">
           <h2>Philippine Government Agencies</h2>
-          <span>03 NEWS</span>
+          <span>06 NEWS</span>
         </div>
-        <div class="government-grid">
-          <article class="story-card raised-card">
-            <div class="image-placeholder alert-photo" style="--ratio: 16/9">
-              <img src="assets/localreports/bir.jpg" alt="BIR cyber breach, 16:9" /><span
-                class="photo-credit-placeholder"
-                >https://business.inquirer.net/files/2019/02/BIR-building-in-Quezon-City.jpg</span
-              >
-            </div>
-            <div style="margin-top: 16px">
-              <span class="tag tag-government">Government Agency</span>
-              <time>Date: November 12, 2026</time>
-            </div>
-            <h3>BIR admits exposure of taxpayer profile data in recent cyber breach</h3>
-            <p>
-              The Bureau of Internal Revenue (BIR) admitted that taxpayer profile data may have been
-              exposed in a November 2026 cyber breach while assuring the public that internal
-              database infrastructure remains intact and no filing or payment records were
-              compromised.
-            </p>
-            <a
-              class="read-link"
-              href="https://business.inquirer.net/620438/bir-admits-exposure-of-taxpayer-profile-data-in-recent-cyber-breach"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Read Full Report
-              <img class="direction-arrow" src="assets/arrowright.png" alt="" aria-hidden="true"
-            /></a>
-          </article>
-          <article class="story-card compact raised-card">
-            <div class="image-placeholder alert-photo" style="--ratio: 4/3">
-              <img src="assets/localreports/sec.jpg" alt="SEC digital platforms, 4:3" /><span
-                class="photo-credit-placeholder"
-                >https://media.philstar.com/photos/2026/11/09/11_2026-11-09_21-53-14.jpg</span
-              >
-            </div>
-            <div style="margin-top: 16px">
-              <span class="tag tag-government">Government Agency</span>
-              <time>Date: November 10, 2026</time>
-            </div>
-            <h3>SEC confirms data breach on its digital platforms</h3>
-            <p>
-              The Securities and Exchange Commission (SEC) confirmed a data breach on its digital
-              platforms, potentially caused by a malware infection or unauthorized access, exposing
-              user details such as names, emails, mobile numbers, addresses, and TINs.
-            </p>
-            <a
-              class="read-link"
-              href="https://www.philstar.com/headlines/2026/11/10/2569098/sec-confirms-data-breach-its-digital-platforms"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Read Full Report
-              <img class="direction-arrow" src="assets/arrowright.png" alt="" aria-hidden="true"
-            /></a>
-          </article>
-          <article class="story-card compact raised-card">
-            <div class="image-placeholder alert-photo" style="--ratio: 4/3">
-              <img src="assets/localreports/npc.jpg" alt="NPC breach monitoring, 4:3" /><span
-                class="photo-credit-placeholder"
-                >https://www.rappler.com</span
-              >
-            </div>
-            <div style="margin-top: 16px">
-              <span class="tag tag-privacy">Privacy Monitoring</span>
-              <time>Date: November 10, 2026</time>
-            </div>
-            <h3>NPC Monitors Personal Data Breach Notifications Across 10 Government Agencies</h3>
-            <p>
-              The National Privacy Commission (NPC) confirmed receiving official breach
-              notifications from ten government offices—including the BIR, DICT, DOLE, SEC, DOJ, and
-              PAGCOR—and launched compliance assessments.
-            </p>
-            <a
-              class="read-link"
-              href="https://privacy.gov.ph/npc-monitors-personal-data-breach-notifications-from-government-agencies/"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Read Full Report
-              <img class="direction-arrow" src="assets/arrowright.png" alt="" aria-hidden="true"
-            /></a>
-          </article>
+        <div class="gov-carousel">
+          <button type="button" class="gov-carousel-btn prev" aria-label="Scroll left">
+            <img src="assets/arrowleft.png" alt="" aria-hidden="true" />
+          </button>
+
+          <div class="government-grid" id="govCarouselTrack">
+            <article class="story-card raised-card">
+              <div class="image-placeholder alert-photo" style="--ratio: 16/9">
+                <img src="assets/localreports/bir.jpg" alt="BIR cyber breach, 16:9" /><span
+                  class="photo-credit-placeholder"
+                  >https://business.inquirer.net/files/2019/02/BIR-building-in-Quezon-City.jpg</span
+                >
+              </div>
+              <div style="margin-top: 16px">
+                <span class="tag tag-government">Government Agency</span>
+                <time>Date: November 12, 2026</time>
+              </div>
+              <h3>BIR admits exposure of taxpayer profile data in recent cyber breach</h3>
+              <p>
+                The Bureau of Internal Revenue (BIR) admitted that taxpayer profile data may have
+                been exposed in a November 2026 cyber breach while assuring the public that internal
+                database infrastructure remains intact and no filing or payment records were
+                compromised.
+              </p>
+              <a
+                class="read-link"
+                href="https://business.inquirer.net/620438/bir-admits-exposure-of-taxpayer-profile-data-in-recent-cyber-breach"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Read Full Report
+                <img class="direction-arrow" src="assets/arrowright.png" alt="" aria-hidden="true"
+              /></a>
+            </article>
+
+            <article class="story-card compact raised-card">
+              <div class="image-placeholder alert-photo" style="--ratio: 4/3">
+                <img src="assets/localreports/sec.jpg" alt="SEC digital platforms, 4:3" /><span
+                  class="photo-credit-placeholder"
+                  >https://media.philstar.com/photos/2026/11/09/11_2026-11-09_21-53-14.jpg</span
+                >
+              </div>
+              <div style="margin-top: 16px">
+                <span class="tag tag-government">Government Agency</span>
+                <time>Date: November 10, 2026</time>
+              </div>
+              <h3>SEC confirms data breach on its digital platforms</h3>
+              <p>
+                The Securities and Exchange Commission (SEC) confirmed a data breach on its digital
+                platforms, potentially caused by a malware infection or unauthorized access,
+                exposing user details such as names, emails, mobile numbers, addresses, and TINs.
+              </p>
+              <a
+                class="read-link"
+                href="https://www.philstar.com/headlines/2026/11/10/2569098/sec-confirms-data-breach-its-digital-platforms"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Read Full Report
+                <img class="direction-arrow" src="assets/arrowright.png" alt="" aria-hidden="true"
+              /></a>
+            </article>
+
+            <article class="story-card compact raised-card">
+              <div class="image-placeholder alert-photo" style="--ratio: 4/3">
+                <img src="assets/localreports/npc.jpg" alt="NPC breach monitoring, 4:3" /><span
+                  class="photo-credit-placeholder"
+                  >https://www.rappler.com</span
+                >
+              </div>
+              <div style="margin-top: 16px">
+                <span class="tag tag-privacy">Privacy Monitoring</span>
+                <time>Date: November 10, 2026</time>
+              </div>
+              <h3>NPC Monitors Personal Data Breach Notifications Across 10 Government Agencies</h3>
+              <p>
+                The National Privacy Commission (NPC) confirmed receiving official breach
+                notifications from ten government offices—including the BIR, DICT, DOLE, SEC, DOJ,
+                and PAGCOR—and launched compliance assessments.
+              </p>
+              <a
+                class="read-link"
+                href="https://privacy.gov.ph/npc-monitors-personal-data-breach-notifications-from-government-agencies/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Read Full Report
+                <img class="direction-arrow" src="assets/arrowright.png" alt="" aria-hidden="true"
+              /></a>
+            </article>
+
+            <article class="story-card compact raised-card" hidden>
+              <div class="image-placeholder alert-photo" style="--ratio: 4/3">
+                <img
+                  src="assets/localreports/philhealth.jpg"
+                  alt="PhilHealth Medusa ransomware breach, 4:3"
+                /><span class="photo-credit-placeholder">https://www.philhealth.gov.ph</span>
+              </div>
+              <div style="margin-top: 16px">
+                <span class="tag tag-government">Government Agency</span>
+                <time>Date: September 2023</time>
+              </div>
+              <h3>PhilHealth Medusa Ransomware Attack Exposes 42 Million Member Records</h3>
+              <p>
+                The Medusa ransomware group infiltrated PhilHealth workstations, exfiltrating
+                roughly 734 GB of files containing member names, addresses, PhilHealth IDs, and
+                medical records after a $300,000 ransom demand went unpaid.
+              </p>
+              <a
+                class="read-link"
+                href="https://privacy.gov.ph"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Read Full Report
+                <img class="direction-arrow" src="assets/arrowright.png" alt="" aria-hidden="true"
+              /></a>
+            </article>
+
+            <article class="story-card compact raised-card" hidden>
+              <div class="image-placeholder alert-photo" style="--ratio: 4/3">
+                <img
+                  src="assets/localreports/psa.jpg"
+                  alt="Philippine Statistics Authority CBMS breach, 4:3"
+                /><span class="photo-credit-placeholder">https://psa.gov.ph</span>
+              </div>
+              <div style="margin-top: 16px">
+                <span class="tag tag-government">Government Agency</span>
+                <time>Date: October 2023</time>
+              </div>
+              <h3>PSA Confirms Data Leak in Community-Based Monitoring System</h3>
+              <p>
+                The Philippine Statistics Authority confirmed unauthorized access to a subset of its
+                Community-Based Monitoring System (CBMS), exposing household survey records while
+                assuring that the core PhilSys National ID registry remained secure.
+              </p>
+              <a
+                class="read-link"
+                href="https://privacy.gov.ph"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Read Full Report
+                <img class="direction-arrow" src="assets/arrowright.png" alt="" aria-hidden="true"
+              /></a>
+            </article>
+
+            <article class="story-card compact raised-card" hidden>
+              <div class="image-placeholder alert-photo" style="--ratio: 4/3">
+                <img
+                  src="assets/localreports/dost.jpg"
+                  alt="DOST network breach investigation, 4:3"
+                /><span class="photo-credit-placeholder">https://www.dost.gov.ph</span>
+              </div>
+              <div style="margin-top: 16px">
+                <span class="tag tag-government">Government Agency</span>
+                <time>Date: April 2024</time>
+              </div>
+              <h3>DOST Investigates Unauthorized Access to Internal Research Network</h3>
+              <p>
+                The Department of Science and Technology, alongside DICT-CERT, contained a
+                cybersecurity breach involving two terabytes of internal administrative and research
+                files while restoring affected agency portals.
+              </p>
+              <a
+                class="read-link"
+                href="https://dict.gov.ph"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Read Full Report
+                <img class="direction-arrow" src="assets/arrowright.png" alt="" aria-hidden="true"
+              /></a>
+            </article>
+          </div>
+
+          <button type="button" class="gov-carousel-btn next" aria-label="Scroll right">
+            <img src="assets/arrowright.png" alt="" aria-hidden="true" />
+          </button>
         </div>
       </section>
       <section class="department" data-category="citizens">
