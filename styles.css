@@ -940,6 +940,44 @@ p {
 .small-story h3 {
   font-family: var(--editorial-font);
 }
+/* Schools & Universities horizontal small cards + 4-card expansion grid */
+.small-story.small-story-media {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 18px;
+  align-items: start;
+}
+
+.small-story-thumb {
+  width: 100%;
+  aspect-ratio: 1;
+  border-radius: var(--radius-sm);
+}
+
+.small-story-body h3 {
+  font-size: 20px;
+  margin-top: 6px;
+}
+
+.school-more-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-top: 24px;
+}
+
+@media (max-width: 768px) {
+  .school-more-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .small-story.small-story-media {
+    grid-template-columns: 88px 1fr;
+    gap: 14px;
+  }
+}
 .government-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -4347,4 +4385,7 @@ p b {
   .number-stats strong {
     font-size: 28px;
   }
+}
+[hidden] {
+  display: none !important;
 }
