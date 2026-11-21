@@ -388,6 +388,7 @@ p strong {
   right: 8px;
   bottom: 8px;
   z-index: 1;
+  display: block;
   max-width: calc(100% - 16px);
   padding: 3px 6px;
   border-radius: 4px;
@@ -397,6 +398,14 @@ p strong {
   font-weight: 400;
   line-height: 1.4;
   text-align: left;
+  text-decoration: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.photo-credit-placeholder:hover {
+  text-decoration: underline;
 }
 
 .tag {
@@ -470,7 +479,7 @@ p strong {
       rgba(247, 248, 251, 0.86) 49%,
       rgba(0, 57, 137, 0.42) 100%
     ),
-    url("assets/homepagepic3.jpg");
+    url("assets/homepagepic.jpg");
   background-position:
     center,
     center 48%;
